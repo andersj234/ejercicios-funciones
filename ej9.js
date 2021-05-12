@@ -1,8 +1,25 @@
-let numero =parseInt(window.prompt('escoge un numero')).length
+let numero =parseInt(window.prompt('escoge un numero'))
 
-function contaNumeros (numero1){
-    if(num > 0){
-        console.log(`este numero tiene ${numero.length} caracteres`)
-    }else{'este numero es negativo'}
+function numeroCifras(){
+    
+    let cif =num.tostring()
+    let cifras =cif.length;
+    window.alert(`las cifras del numero ${numero} son ${cifras}`)
 }
-window.alert(contaNumeros())// le falta algo pero no se me ocurre como hacerlo
+
+numeroCifras(numero)
+
+  
+/*let num = parseInt(window.prompt("Introduce un número:"));
+
+function numeroCifras(numero) {
+  if (numero >= 0) {
+    let cif = numero.toString();
+    let cifras = cif.length;
+    return `Las cifras del número ${num} son ${cifras}`;
+  } else {
+    return "El número introducido es negativo";
+  }
+}
+
+window.alert(numeroCifras(num));*/

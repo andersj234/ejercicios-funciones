@@ -1,10 +1,22 @@
 let factorial = parseInt(window.prompt('escoge el numero factorial que quieres'))
-let numero =1
-function factoriales(){
-    for(let i=1; i<=10; i++){
+
+function factoriales(numero){
+    let numero =1
+    for(let i=numero; i > 1; i--){
         numero = numero*i
-        console(console.log(`${i} -- ${numero}`))
     }
     return numero
 }
-window.alert(factoriales(4))
+window.alert(`El factorial de ${numero} es ${factorial(numero)}`)
+
+/*let numero = parseInt(window.prompt("Introduce un número:"));
+
+function factorial(num) {
+  let suma = 1;
+  for (i = num; i > 1; i--) {
+    suma = suma * i;
+  }
+  return suma;
+}
+
+window.alert(`El factorial de ${numero} es ${factorial(numero)}`);*/

@@ -17,3 +17,15 @@ if(numeroUsuario1 > numeroUsuario2){
 }else{
     document.getElementById("div").innerHTML =`${numeroUsuario1} es menor que ${numeroUsuario2}`
 }
+
+  
+/*let num1 = parseInt(window.prompt("Introduce un número"));
+let num2 = parseInt(window.prompt("Introduce otro número"));
+
+function comparador(numero1, numero2) {
+  numero1 > numero2
+    ? console.log(`El ${numero1} es mayor`)
+    : console.log(`El ${numero1} es menor`);
+}
+
+console.log(comparador(num1, num2));*/

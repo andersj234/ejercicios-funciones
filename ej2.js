@@ -2,7 +2,7 @@ function saludo(saludo){
     for(let i =1;i<=saludo;i++){
        console.log("hola")
     }
-    return saludo;
+    return saludo
 }
+saludo(3)
 
-console.log(saludo(3,"hola"))

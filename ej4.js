@@ -4,5 +4,5 @@ let resultado
 function suma(num1, num2){
   resultado =num1+num2
 }
-suma(numero1,numero2)
-console.log(resultado) //preguntar porque a veces las variables me salen en azul mas oscuro
+suma(numero1,numero2) // asi invocas a la función
+console.log(resultado) 

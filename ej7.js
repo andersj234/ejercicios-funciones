@@ -1,12 +1,22 @@
 let numeroPar =parseInt(window,prompt('escoge un numero'))
 function esPar(numero1){
-    numero1%2 ===0
-    return numero1
+    if(numero1%2 ===0){
+        return true;
+    }else{
+        return false
+    }
 }
 
-if(numeroPar%2 === 0){
-    console.log(`el numero ${numeroPar} es par`)
-}else if(numeroPar%2 !==0){
-    console.log(`el numero ${numeroPar} es impar`)
+window.alert(esPar(numeroPar))
+
+/*let numero = parseInt(window.prompt("Introduce un número"));
+
+function esPar(numero) {
+  if (numero % 2 === 0) {
+    return true;
+  } else {
+    return false;
+  }
 }
-console.log(esPar(numeroPar))
+
+window.alert(esPar(numero));*/
